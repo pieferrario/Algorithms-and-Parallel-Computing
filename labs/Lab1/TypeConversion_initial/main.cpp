@@ -10,20 +10,21 @@
 // and then print a countdown from 5 to 0.
 // Identify and correct the errors in this piece of code:
 
+/*
 int main() {
-	unsigned measurement = 10;
+	int measurement = 10;
 	int correction = -20;
 
-	unsigned corrected = measurement + correction;
+	int corrected = measurement + correction;
 
 	std::cout << "Corrected measurement: " << corrected << '\n';
 
-	for (unsigned i = 5; i >= 0; --i)
+	for (int i = 5; i >= 0; --i)
 		std::cout << i << ' ';
 
 	return 0;
 }
-
+*/
 
 /*
 // Exercise 2: The program should store the squares
@@ -32,25 +33,25 @@ int main() {
 int main() {
 	std::vector<int> squares;
 	for (int i = 0; i < 10; ++i)
-		squares[i] = i * i;
+		squares.push_back(i * i);
 
 	std::cout << "The vector contains " << squares.size() << " elements\n";
 
-	for (std::size_t i = 0; i <= squares.size(); ++i)
+	for (std::size_t i = 0; i < squares.size(); ++i)
 		std::cout << squares[i] << '\n';
 
 	return 0;
 }
 */
 
-/*
+
 // Exercise 3: The program should add a new delivery to
 // the product’s current stock, store the product in a warehouse,
 // and print all products.
 // Identify and correct the errors in this piece of code:
 struct Product {
 	std::string name;
-	unsigned stock;
+	unsigned long long stock;
 };
 
 int main()
@@ -59,13 +60,12 @@ int main()
 	product.stock += 1000000000;
 
 	std::vector<Product> warehouse;
-	warehouse[0] = product;
+	warehouse.push_back(product);
 
-	for (std::size_t i = 0; i <= warehouse.size(); ++i)
+	for (std::size_t i = 0; i < warehouse.size(); ++i)
 		std::cout << warehouse[i].name << ": " << warehouse[i].stock << " units\n";
 
 	return 0;
 }
-*/
 
 
