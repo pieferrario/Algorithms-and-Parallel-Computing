@@ -12,7 +12,7 @@
 
 /*
 int main() {
-	int measurement = 10;
+	unsigned measurement = 10;
 	int correction = -20;
 
 	int corrected = measurement + correction;
@@ -67,5 +67,4 @@ int main()
 
 	return 0;
 }
-
 

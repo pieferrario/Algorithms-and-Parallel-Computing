@@ -6,6 +6,7 @@
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -28,8 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2565b242-a69c-4eba-8035-1ff1a7124280" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,31 +70,36 @@
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TypeConversion" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TypeConversion" TARGET_NAME="TypeConversion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TypeConversion" RUN_TARGET_NAME="TypeConversion">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="SelectedDebugProfileService"><![CDATA[{
-  "profileIdByStamp": [],
-  "modificationCount": 6
-}]]></component>
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [
+    {
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;CMake Application.TypeConversion&quot;,
+        &quot;cmake&quot;: &quot;CMakeBuildProfile:Debug&quot;
+      },
+      &quot;second&quot;: &quot;6eb2969d-236a-4fd6-b715-a338c14c50e9&quot;
+    }
+  ],
+  &quot;modificationCount&quot;: 8
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2565b242-a69c-4eba-8035-1ff1a7124280" name="Changes" comment="" />
