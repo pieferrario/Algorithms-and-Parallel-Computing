@@ -71,5 +71,45 @@ void CGSolver::solve( bool use_preconditioner )
     residuals.clear();
     iterations = 0;
 
-    // Your code goes here
+    // Solves A x = b with CG (use_preconditioner == false)
+    // or with Jacobi-preconditioned CG (use_preconditioner == true)
+    Rnvector r = b - A.multiply(solution);
+    Rnvector z, p, q;
+    double rho_old, rho_new, alpha, beta;
+    if (use_preconditioner)
+    {
+        z = preconditioner.apply(r);
+    }
+    else
+    {
+        z = r;
+    }
+    p = z;
+    rho_old = dot(r, z);
+    residuals.push_back(norm(r));
+
+    while (residuals[iterations] > tol * norm(b) and iterations < max_it)
+    {
+        q = A.multiply(p);
+        alpha = rho_old/(dot(p, q));
+        solution = solution + alpha * p;
+        r = r - alpha * q;
+        residuals.push_back(norm(r));
+
+        if (use_preconditioner)
+        {
+            z = preconditioner.apply(r);
+        }
+        else
+        {
+            z = r;
+        }
+
+        rho_new = dot(r, z);
+        beta = rho_new / rho_old;
+        rho_old = rho_new;
+        p = z + beta * p;
+        ++iterations;
+
+    }
 }
