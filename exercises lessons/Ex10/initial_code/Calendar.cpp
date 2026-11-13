@@ -24,7 +24,7 @@ void Calendar::updateEvent (time_t old_date, const std::string& old_name , time_
 
     for (std::vector<Event>::iterator it = events -> begin(); it != events->end(); ++it) // TODO
     {
-        if (it->getName() == old_name && it->getName() == old_name)
+        if (it->getName() == old_name && it->getTime() == old_date)
         {
             found = true;
 
