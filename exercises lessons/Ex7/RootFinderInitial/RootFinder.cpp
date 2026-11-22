@@ -13,7 +13,6 @@ bool RootFinder::converged (real increment, real residual) const {
     The parameter is chosen upon the value of check.
   */
 
-  /* Your code goes here */
   // switch is a chain of else if which chooses the proper case
   switch (termination_criteria)
   {
@@ -24,4 +23,5 @@ bool RootFinder::converged (real increment, real residual) const {
   case BOTH:
     return (increment < tolerance) and (residual < tolerance);
   }
+  return false;
 }
