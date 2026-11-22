@@ -29,23 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41c44267-3b35-473a-a844-50df07a41111" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../GradientRn.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/MinRnInitial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionMinRn.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionMinRn.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionRn.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionRn.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monomial.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Monomial.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Point.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Point.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../exercise book/chapter 1/Exe_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exercise book/chapter 1/Exe_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Ex4/initial_code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex4/initial_code/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Ex4/initial_code/Function.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ex4/initial_code/Function.cpp" afterDir="false" />

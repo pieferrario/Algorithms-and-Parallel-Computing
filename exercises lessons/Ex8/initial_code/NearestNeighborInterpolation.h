@@ -7,12 +7,12 @@
 
 /* TO BE COMPLETED */
 
-class NearestNeighborInterpolation
+class NearestNeighborInterpolation : public Interpolation
 {
 public:
   explicit NearestNeighborInterpolation (const std::vector<Point> &);
 
-  double interpolate (double) const;
+  double interpolate (double) const override;
 };
 
 #endif // NEAREST_NEIGHBOR_INTERPOLATION_HH

@@ -5,15 +5,13 @@
 
 #include "Interpolation.h"
 
-/* TO BE COMPLETED */
-
-class LinearInterpolation
+// Linear interpolation is a public derived class from Interpolation
+class LinearInterpolation : public Interpolation
 {
-
 public:
   explicit LinearInterpolation (const std::vector<Point> &);
-
-  double interpolate (double) const;
+  // since it is an inherited class, we have to specify that we are overriding the interpolate method.
+  double interpolate (double x) const override;
 };
 
 #endif // LINEAR_INTERPOLATION_HH

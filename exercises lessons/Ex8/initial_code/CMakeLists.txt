@@ -10,10 +10,11 @@ add_executable(InterpolationInitialCode
         Interpolation.h
         LinearInterpolation.cpp
         LinearInterpolation.h
-        main.cpp
-        NearestNeighborInterpolation.cpp
         NearestNeighborInterpolation.h
+        NearestNeighborInterpolation.cpp
+        main.cpp
+        StepWiseInterpolation.h
+        StepWiseInterpolation.cpp
         Point.cpp
         Point.h
-        StepwiseInterpolation.cpp
-        StepwiseInterpolation.h)
+        )

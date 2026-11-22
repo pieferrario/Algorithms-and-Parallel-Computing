@@ -16,7 +16,7 @@ size_t SocialNetwork::CUserIndex(const std::string &name,
 
   for (i = 0; i < users.size() && !found; ++i)
     if (users[i] == u)
-      found = true;
+       found = true;
 
   if (found)
     return --i;
