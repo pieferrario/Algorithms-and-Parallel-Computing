@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles\\Tensors.dir\\main.cpp.obj -c C:\\Users\\pietr\\Desktop\\TensorsInitial\\main.cpp",
+  "file": "C:/Users/pietr/Desktop/TensorsInitial/main.cpp",
+  "output": "C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug/CMakeFiles/Tensors.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\C__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles\\Tensors.dir\\Tensor.cpp.obj -c C:\\Users\\pietr\\Desktop\\TensorsInitial\\Tensor.cpp",
+  "file": "C:/Users/pietr/Desktop/TensorsInitial/Tensor.cpp",
+  "output": "C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug/CMakeFiles/Tensors.dir/Tensor.cpp.obj"
+}
+]

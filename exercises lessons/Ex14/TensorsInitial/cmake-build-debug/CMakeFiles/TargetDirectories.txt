@@ -1,0 +1,3 @@
+C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug/CMakeFiles/Tensors.dir
+C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pietr/Desktop/TensorsInitial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
