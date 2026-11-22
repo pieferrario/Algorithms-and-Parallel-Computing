@@ -1,4 +1,6 @@
 additional_exercises/
-ExamKit/".idea/" 
-"cmake-build-*/" 
-".idea/"  "cmake-build-*/" 
+ExamKit/
+.idea/
+cmake-build-*/
+.DS_Store
+*.exe
