@@ -5,4 +5,3 @@ cmake-build-*/
 .DS_Store
 *.exe
 exercises lessons/Ex12/
-exercises lessons/Ex13/
