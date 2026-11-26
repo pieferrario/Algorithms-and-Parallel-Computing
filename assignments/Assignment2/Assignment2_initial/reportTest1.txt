@@ -1,0 +1,76 @@
+=== Report ===
+
+--- Flights ---
+ID: 0, status: Arrived, departure time: 10, arrival time: 70, available seats: 0
+ID: 1, status: Canceled, departure time: 100, arrival time: 150, available seats: 0
+ID: 2, status: Scheduled, departure time: 20, arrival time: 140, available seats: 0
+ID: 3, status: Scheduled, departure time: 65, arrival time: 115, available seats: 2
+
+--- Airports ---
+
+Next Departures from MXP (Milano):
+	ID: 2, status: Scheduled, departure time: 20, arrival time: 140, available seats: 0
+
+Next Arrivals to MXP (Milano):
+	None
+
+Next Departures from FCO (Roma):
+	ID: 3, status: Scheduled, departure time: 65, arrival time: 115, available seats: 2
+
+Next Arrivals to FCO (Roma):
+	None
+
+Next Departures from PMO (Palermo):
+	None
+
+Next Arrivals to PMO (Palermo):
+	ID: 3, status: Scheduled, departure time: 65, arrival time: 115, available seats: 2
+	ID: 2, status: Scheduled, departure time: 20, arrival time: 140, available seats: 0
+
+--- Direct bookable flights between airports ---
+	MXP -> PMO:
+		flight 2
+	FCO -> PMO:
+		flight 3
+
+--- Available paths for 1 passenger ---
+	FCO -> PMO:
+		flight 3
+
+--- Available paths for 2 passengers ---
+	FCO -> PMO:
+		flight 3
+
+--- Available paths for 3 passengers ---
+
+--- Passengers ---
+ID: 0, Name: Alice
+	Booking ID: 0, status: Canceled, passengers: 1
+		flight 0, seats: 0
+		flight 1, seats: 0
+	Booking IDs: 0
+ID: 1, Name: Bob
+	Booking ID: 1, status: Confirmed, passengers: 2
+		flight 2, seats: 0 1
+	Booking ID: 4, status: Canceled, passengers: 3
+		flight 0, seats: 0 1 2
+	Booking IDs: 1 4
+ID: 2, Name: Carla
+	Booking ID: 2, status: Canceled, passengers: 2
+		flight 0, seats: 1 2
+	Booking ID: 3, status: Canceled, passengers: 1
+		flight 1, seats: 1
+	Booking IDs: 2 3
+
+--- Bookings ---
+Booking ID: 0, status: Canceled, passengers: 1
+		flight 0, seats: 0
+		flight 1, seats: 0
+Booking ID: 1, status: Confirmed, passengers: 2
+		flight 2, seats: 0 1
+Booking ID: 2, status: Canceled, passengers: 2
+		flight 0, seats: 1 2
+Booking ID: 3, status: Canceled, passengers: 1
+		flight 1, seats: 1
+Booking ID: 4, status: Canceled, passengers: 3
+		flight 0, seats: 0 1 2

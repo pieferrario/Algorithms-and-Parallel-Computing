@@ -1,0 +1,391 @@
+=== Report ===
+
+--- Flights ---
+ID: 0, status: Arrived, departure time: 0, arrival time: 60, available seats: 0
+ID: 1, status: Arrived, departure time: 10, arrival time: 60, available seats: 1
+ID: 2, status: Arrived, departure time: 80, arrival time: 140, available seats: 1
+ID: 3, status: Canceled, departure time: 90, arrival time: 210, available seats: 1
+ID: 4, status: Arrived, departure time: 100, arrival time: 170, available seats: 1
+ID: 5, status: Arrived, departure time: 130, arrival time: 170, available seats: 1
+ID: 6, status: Arrived, departure time: 190, arrival time: 250, available seats: 1
+ID: 7, status: Departed, departure time: 200, arrival time: 260, available seats: 5
+ID: 8, status: Departed, departure time: 220, arrival time: 280, available seats: 2
+ID: 9, status: Departed, departure time: 230, arrival time: 270, available seats: 0
+ID: 10, status: Departed, departure time: 300, arrival time: 400, available seats: 3
+ID: 11, status: Departed, departure time: 320, arrival time: 400, available seats: 1
+ID: 12, status: Departed, departure time: 340, arrival time: 390, available seats: 1
+ID: 13, status: Departed, departure time: 360, arrival time: 420, available seats: 1
+ID: 14, status: Departed, departure time: 380, arrival time: 440, available seats: 2
+ID: 15, status: Scheduled, departure time: 400, arrival time: 480, available seats: 0
+ID: 16, status: Scheduled, departure time: 420, arrival time: 460, available seats: 2
+ID: 17, status: Canceled, departure time: 440, arrival time: 500, available seats: 0
+ID: 18, status: Scheduled, departure time: 500, arrival time: 560, available seats: 0
+ID: 19, status: Scheduled, departure time: 520, arrival time: 610, available seats: 0
+ID: 20, status: Scheduled, departure time: 540, arrival time: 610, available seats: 2
+ID: 21, status: Scheduled, departure time: 560, arrival time: 620, available seats: 2
+ID: 22, status: Scheduled, departure time: 580, arrival time: 620, available seats: 1
+ID: 23, status: Scheduled, departure time: 600, arrival time: 720, available seats: 1
+ID: 24, status: Scheduled, departure time: 620, arrival time: 710, available seats: 0
+ID: 25, status: Scheduled, departure time: 700, arrival time: 790, available seats: 0
+ID: 26, status: Scheduled, departure time: 720, arrival time: 810, available seats: 1
+ID: 27, status: Scheduled, departure time: 740, arrival time: 800, available seats: 3
+ID: 28, status: Scheduled, departure time: 760, arrival time: 820, available seats: 1
+ID: 29, status: Canceled, departure time: 800, arrival time: 930, available seats: 0
+
+--- Airports ---
+
+Next Departures from MXP (Milano):
+	ID: 24, status: Scheduled, departure time: 620, arrival time: 710, available seats: 0
+
+Next Arrivals to MXP (Milano):
+	ID: 10, status: Departed, departure time: 300, arrival time: 400, available seats: 3
+	ID: 13, status: Departed, departure time: 360, arrival time: 420, available seats: 1
+	ID: 23, status: Scheduled, departure time: 600, arrival time: 720, available seats: 1
+	ID: 25, status: Scheduled, departure time: 700, arrival time: 790, available seats: 0
+	ID: 27, status: Scheduled, departure time: 740, arrival time: 800, available seats: 3
+
+Next Departures from FCO (Roma):
+	ID: 18, status: Scheduled, departure time: 500, arrival time: 560, available seats: 0
+	ID: 20, status: Scheduled, departure time: 540, arrival time: 610, available seats: 2
+	ID: 26, status: Scheduled, departure time: 720, arrival time: 810, available seats: 1
+
+Next Arrivals to FCO (Roma):
+	ID: 11, status: Departed, departure time: 320, arrival time: 400, available seats: 1
+	ID: 14, status: Departed, departure time: 380, arrival time: 440, available seats: 2
+	ID: 16, status: Scheduled, departure time: 420, arrival time: 460, available seats: 2
+	ID: 19, status: Scheduled, departure time: 520, arrival time: 610, available seats: 0
+	ID: 28, status: Scheduled, departure time: 760, arrival time: 820, available seats: 1
+
+Next Departures from PMO (Palermo):
+	ID: 23, status: Scheduled, departure time: 600, arrival time: 720, available seats: 1
+
+Next Arrivals to PMO (Palermo):
+	ID: 18, status: Scheduled, departure time: 500, arrival time: 560, available seats: 0
+	ID: 22, status: Scheduled, departure time: 580, arrival time: 620, available seats: 1
+
+Next Departures from NAP (Napoli):
+	ID: 16, status: Scheduled, departure time: 420, arrival time: 460, available seats: 2
+	ID: 25, status: Scheduled, departure time: 700, arrival time: 790, available seats: 0
+
+Next Arrivals to NAP (Napoli):
+	ID: 21, status: Scheduled, departure time: 560, arrival time: 620, available seats: 2
+	ID: 24, status: Scheduled, departure time: 620, arrival time: 710, available seats: 0
+
+Next Departures from TRN (Torino):
+	ID: 19, status: Scheduled, departure time: 520, arrival time: 610, available seats: 0
+
+Next Arrivals to TRN (Torino):
+	ID: 12, status: Departed, departure time: 340, arrival time: 390, available seats: 1
+	ID: 26, status: Scheduled, departure time: 720, arrival time: 810, available seats: 1
+
+Next Departures from VCE (Venezia):
+	ID: 15, status: Scheduled, departure time: 400, arrival time: 480, available seats: 0
+	ID: 27, status: Scheduled, departure time: 740, arrival time: 800, available seats: 3
+
+Next Arrivals to VCE (Venezia):
+	ID: 7, status: Departed, departure time: 200, arrival time: 260, available seats: 5
+	ID: 20, status: Scheduled, departure time: 540, arrival time: 610, available seats: 2
+
+Next Departures from BRI (Bari):
+	ID: 21, status: Scheduled, departure time: 560, arrival time: 620, available seats: 2
+	ID: 28, status: Scheduled, departure time: 760, arrival time: 820, available seats: 1
+
+Next Arrivals to BRI (Bari):
+	ID: 8, status: Departed, departure time: 220, arrival time: 280, available seats: 2
+	ID: 15, status: Scheduled, departure time: 400, arrival time: 480, available seats: 0
+
+Next Departures from CTA (Catania):
+	ID: 22, status: Scheduled, departure time: 580, arrival time: 620, available seats: 1
+
+Next Arrivals to CTA (Catania):
+	ID: 9, status: Departed, departure time: 230, arrival time: 270, available seats: 0
+
+--- Direct bookable flights between airports ---
+	MXP -> NAP:
+		flight 24
+	FCO -> PMO:
+		flight 18
+	FCO -> TRN:
+		flight 26
+	FCO -> VCE:
+		flight 20
+	PMO -> MXP:
+		flight 23
+	NAP -> MXP:
+		flight 25
+	NAP -> FCO:
+		flight 16
+	TRN -> FCO:
+		flight 19
+	VCE -> MXP:
+		flight 27
+	VCE -> BRI:
+		flight 15
+	BRI -> FCO:
+		flight 28
+	BRI -> NAP:
+		flight 21
+	CTA -> PMO:
+		flight 22
+
+--- Available paths for 1 passenger ---
+	FCO -> MXP:
+		flight 20 -> flight 27
+	FCO -> TRN:
+		flight 26
+	FCO -> VCE:
+		flight 20
+	PMO -> MXP:
+		flight 23
+	NAP -> FCO:
+		flight 16
+	NAP -> TRN:
+		flight 16 -> flight 26
+	NAP -> VCE:
+		flight 16 -> flight 20
+	VCE -> MXP:
+		flight 27
+	BRI -> FCO:
+		flight 28
+	BRI -> NAP:
+		flight 21
+	CTA -> PMO:
+		flight 22
+
+--- Available paths for 2 passengers ---
+	FCO -> MXP:
+		flight 20 -> flight 27
+	FCO -> VCE:
+		flight 20
+	NAP -> FCO:
+		flight 16
+	NAP -> VCE:
+		flight 16 -> flight 20
+	VCE -> MXP:
+		flight 27
+	BRI -> NAP:
+		flight 21
+
+--- Available paths for 3 passengers ---
+	VCE -> MXP:
+		flight 27
+
+--- Passengers ---
+ID: 0, Name: Alice
+	Booking ID: 0, status: Canceled, passengers: 1
+		flight 3, seats: 0
+	Booking ID: 1, status: Confirmed, passengers: 2
+		flight 19, seats: 0 1
+	Booking IDs: 0 1
+ID: 1, Name: Bob
+	Booking ID: 2, status: Confirmed, passengers: 2
+		flight 0, seats: 0 1
+		flight 2, seats: 0 1
+		flight 9, seats: 0 1
+	Booking ID: 3, status: Confirmed, passengers: 1
+		flight 4, seats: 0
+		flight 18, seats: 0
+	Booking IDs: 2 3
+ID: 2, Name: Carla
+	Booking ID: 4, status: Confirmed, passengers: 3
+		flight 13, seats: 0 1 2
+	Booking ID: 5, status: Canceled, passengers: 1
+		flight 28, seats: 0
+	Booking IDs: 4 5
+ID: 3, Name: Davide
+	Booking ID: 6, status: Confirmed, passengers: 1
+		flight 24, seats: 0
+	Booking ID: 7, status: Canceled, passengers: 2
+		flight 29, seats: 0 1
+	Booking IDs: 6 7
+ID: 4, Name: Elena
+	Booking ID: 8, status: Canceled, passengers: 1
+		flight 1, seats: 0
+		flight 3, seats: 1
+	Booking ID: 30, status: Canceled, passengers: 1
+		flight 6, seats: 1
+	Booking IDs: 8 30
+ID: 5, Name: Fabio
+	Booking ID: 9, status: Confirmed, passengers: 2
+		flight 15, seats: 0 1
+	Booking ID: 10, status: Canceled, passengers: 1
+		flight 20, seats: 0
+	Booking IDs: 9 10
+ID: 6, Name: Giulia
+	Booking ID: 11, status: Confirmed, passengers: 1
+		flight 23, seats: 0
+	Booking ID: 35, status: Confirmed, passengers: 2
+		flight 20, seats: 0 1
+	Booking IDs: 11 35
+ID: 7, Name: Hassan
+	Booking ID: 12, status: Confirmed, passengers: 2
+		flight 25, seats: 0 1
+	Booking ID: 13, status: Confirmed, passengers: 1
+		flight 0, seats: 2
+		flight 5, seats: 0
+		flight 6, seats: 0
+	Booking ID: 36, status: Confirmed, passengers: 1
+		flight 25, seats: 2
+	Booking IDs: 12 13 36
+ID: 8, Name: Irene
+	Booking ID: 14, status: Confirmed, passengers: 1
+		flight 10, seats: 0
+	Booking IDs: 14
+ID: 9, Name: Luca
+	Booking ID: 15, status: Canceled, passengers: 1
+		flight 26, seats: 0
+	Booking ID: 31, status: Confirmed, passengers: 1
+		flight 26, seats: 0
+	Booking IDs: 15 31
+ID: 10, Name: Marta
+	Booking ID: 16, status: Canceled, passengers: 4
+		flight 17, seats: 0 1 2 3
+	Booking ID: 17, status: Confirmed, passengers: 1
+		flight 14, seats: 0
+	Booking IDs: 16 17
+ID: 11, Name: Nicola
+	Booking ID: 18, status: Confirmed, passengers: 1
+		flight 1, seats: 1
+		flight 24, seats: 1
+	Booking ID: 32, status: Confirmed, passengers: 1
+		flight 1, seats: 0
+		flight 24, seats: 2
+	Booking IDs: 18 32
+ID: 12, Name: Olga
+	Booking ID: 19, status: Confirmed, passengers: 1
+		flight 11, seats: 0
+	Booking ID: 33, status: Confirmed, passengers: 1
+		flight 11, seats: 1
+	Booking IDs: 19 33
+ID: 13, Name: Paolo
+	Booking ID: 20, status: Canceled, passengers: 1
+		flight 27, seats: 0
+	Booking ID: 34, status: Confirmed, passengers: 1
+		flight 27, seats: 0
+	Booking IDs: 20 34
+ID: 14, Name: Quinn
+	Booking ID: 21, status: Confirmed, passengers: 2
+		flight 18, seats: 1 2
+	Booking ID: 22, status: Confirmed, passengers: 1
+		flight 0, seats: 3
+		flight 8, seats: 0
+	Booking IDs: 21 22
+ID: 15, Name: Rita
+	Booking ID: 23, status: Confirmed, passengers: 1
+		flight 16, seats: 0
+	Booking ID: 37, status: Confirmed, passengers: 1
+		flight 23, seats: 1
+	Booking IDs: 23 37
+ID: 16, Name: Sara
+	Booking ID: 24, status: Confirmed, passengers: 1
+		flight 21, seats: 0
+	Booking IDs: 24
+ID: 17, Name: Tommaso
+	Booking ID: 25, status: Canceled, passengers: 1
+		flight 1, seats: 2
+		flight 7, seats: 0
+	Booking IDs: 25
+ID: 18, Name: Ugo
+	Booking ID: 26, status: Confirmed, passengers: 1
+		flight 22, seats: 0
+	Booking ID: 27, status: Confirmed, passengers: 2
+		flight 12, seats: 0 1
+	Booking IDs: 26 27
+ID: 19, Name: Vera
+	Booking ID: 28, status: Confirmed, passengers: 1
+		flight 5, seats: 1
+	Booking ID: 29, status: Confirmed, passengers: 2
+		flight 4, seats: 1 2
+	Booking ID: 38, status: Confirmed, passengers: 2
+		flight 28, seats: 0 1
+	Booking IDs: 28 29 38
+
+--- Bookings ---
+Booking ID: 0, status: Canceled, passengers: 1
+		flight 3, seats: 0
+Booking ID: 1, status: Confirmed, passengers: 2
+		flight 19, seats: 0 1
+Booking ID: 2, status: Confirmed, passengers: 2
+		flight 0, seats: 0 1
+		flight 2, seats: 0 1
+		flight 9, seats: 0 1
+Booking ID: 3, status: Confirmed, passengers: 1
+		flight 4, seats: 0
+		flight 18, seats: 0
+Booking ID: 4, status: Confirmed, passengers: 3
+		flight 13, seats: 0 1 2
+Booking ID: 5, status: Canceled, passengers: 1
+		flight 28, seats: 0
+Booking ID: 6, status: Confirmed, passengers: 1
+		flight 24, seats: 0
+Booking ID: 7, status: Canceled, passengers: 2
+		flight 29, seats: 0 1
+Booking ID: 8, status: Canceled, passengers: 1
+		flight 1, seats: 0
+		flight 3, seats: 1
+Booking ID: 9, status: Confirmed, passengers: 2
+		flight 15, seats: 0 1
+Booking ID: 10, status: Canceled, passengers: 1
+		flight 20, seats: 0
+Booking ID: 11, status: Confirmed, passengers: 1
+		flight 23, seats: 0
+Booking ID: 12, status: Confirmed, passengers: 2
+		flight 25, seats: 0 1
+Booking ID: 13, status: Confirmed, passengers: 1
+		flight 0, seats: 2
+		flight 5, seats: 0
+		flight 6, seats: 0
+Booking ID: 14, status: Confirmed, passengers: 1
+		flight 10, seats: 0
+Booking ID: 15, status: Canceled, passengers: 1
+		flight 26, seats: 0
+Booking ID: 16, status: Canceled, passengers: 4
+		flight 17, seats: 0 1 2 3
+Booking ID: 17, status: Confirmed, passengers: 1
+		flight 14, seats: 0
+Booking ID: 18, status: Confirmed, passengers: 1
+		flight 1, seats: 1
+		flight 24, seats: 1
+Booking ID: 19, status: Confirmed, passengers: 1
+		flight 11, seats: 0
+Booking ID: 20, status: Canceled, passengers: 1
+		flight 27, seats: 0
+Booking ID: 21, status: Confirmed, passengers: 2
+		flight 18, seats: 1 2
+Booking ID: 22, status: Confirmed, passengers: 1
+		flight 0, seats: 3
+		flight 8, seats: 0
+Booking ID: 23, status: Confirmed, passengers: 1
+		flight 16, seats: 0
+Booking ID: 24, status: Confirmed, passengers: 1
+		flight 21, seats: 0
+Booking ID: 25, status: Canceled, passengers: 1
+		flight 1, seats: 2
+		flight 7, seats: 0
+Booking ID: 26, status: Confirmed, passengers: 1
+		flight 22, seats: 0
+Booking ID: 27, status: Confirmed, passengers: 2
+		flight 12, seats: 0 1
+Booking ID: 28, status: Confirmed, passengers: 1
+		flight 5, seats: 1
+Booking ID: 29, status: Confirmed, passengers: 2
+		flight 4, seats: 1 2
+Booking ID: 30, status: Canceled, passengers: 1
+		flight 6, seats: 1
+Booking ID: 31, status: Confirmed, passengers: 1
+		flight 26, seats: 0
+Booking ID: 32, status: Confirmed, passengers: 1
+		flight 1, seats: 0
+		flight 24, seats: 2
+Booking ID: 33, status: Confirmed, passengers: 1
+		flight 11, seats: 1
+Booking ID: 34, status: Confirmed, passengers: 1
+		flight 27, seats: 0
+Booking ID: 35, status: Confirmed, passengers: 2
+		flight 20, seats: 0 1
+Booking ID: 36, status: Confirmed, passengers: 1
+		flight 25, seats: 2
+Booking ID: 37, status: Confirmed, passengers: 1
+		flight 23, seats: 1
+Booking ID: 38, status: Confirmed, passengers: 2
+		flight 28, seats: 0 1
